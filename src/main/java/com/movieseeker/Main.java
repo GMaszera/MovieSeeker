@@ -28,6 +28,7 @@ public class Main {
             for (Filme filme : filmes) {
                 System.out.println(filme.getNome() + " (" + filme.getAno() + ") - " + filme.getGenero() + " - Diretor: " + filme.getDiretor());
             }
+            //
         } catch (SQLException e) {
             System.out.println("Erro ao acessar o banco de dados: " + e.getMessage());
         }
